@@ -299,7 +299,8 @@ class InstanceGenerator(tf.keras.utils.Sequence):
     for i in range(len(self.cases)):
       try:
         case = np.load(self.cases[i])
-        X = np.array([resize_volume(case['CT']), resize_volume(case['PTV'])])
+        #X = np.array([resize_volume(case['CT']), resize_volume(case['PTV'])])
+        X = np.array([resize_volume(case['CT'])])
         Y = np.array([resize_volume(case['DOSE'])])
         self.X.append(X.transpose(1,2,3,0))
         self.Y.append(Y.transpose(1,2,3,0))
@@ -309,7 +310,7 @@ class InstanceGenerator(tf.keras.utils.Sequence):
         continue
 
   def __len__(self):
-    return int(len(self.X)/self.batch_size)
+    return math.ceil(len(self.X)/self.batch_size)
 
   def __getitem__(self, idx):
     low = idx * self.batch_size
