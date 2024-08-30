@@ -19,6 +19,3 @@ unet.compile(
 print(unet.summary())
 
 results = unet.fit(instance_loader, batch_size=1, epochs=5)
-
-#usar autoencoder pra diminuir as imagens 3d do ct
-#colar/chapar as imagens de ct + ptv pra usar 1 entrada só e poder usar 2d
