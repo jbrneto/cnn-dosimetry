@@ -1,0 +1,136 @@
+Evaluating Performance on image: 082
+converted_mask_testing_images/tumor_082_mask.tif 0.243 3
+evaluation_mask shape (27136, 12224)
+max_label 60
+Isolated_Tumor_Cells [1, 5, 8, 10, 11, 15, 16, 17, 19, 21, 22, 23, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 51, 52, 53, 55, 57, 58, 59]
+num_of_tumors 21
+TP 13 TPelse 17843 FP 661
+Evaluating Performance on image: 121
+converted_mask_testing_images/tumor_121_mask.tif 0.243 3
+evaluation_mask shape (27648, 12224)
+max_label 6
+Isolated_Tumor_Cells [2, 4, 5]
+num_of_tumors 3
+TP 3 TPelse 6253 FP 24
+Evaluating Performance on image: 051
+converted_mask_testing_images/tumor_051_mask.tif 0.243 3
+evaluation_mask shape (26496, 12096)
+max_label 15
+Isolated_Tumor_Cells [3, 5, 6, 13]
+num_of_tumors 11
+TP 5 TPelse 6297 FP 250
+Evaluating Performance on image: 061
+converted_mask_testing_images/tumor_061_mask.tif 0.243 3
+evaluation_mask shape (27008, 12224)
+max_label 12
+Isolated_Tumor_Cells [3, 4, 5, 8, 9, 10, 12]
+num_of_tumors 5
+TP 5 TPelse 10193 FP 91
+Evaluating Performance on image: 108
+converted_mask_testing_images/tumor_108_mask.tif 0.243 3
+evaluation_mask shape (27648, 12224)
+max_label 1
+Isolated_Tumor_Cells []
+num_of_tumors 1
+TP 1 TPelse 4295 FP 37
+Evaluating Performance on image: 074
+converted_mask_testing_images/tumor_074_mask.tif 0.243 3
+evaluation_mask shape (26496, 12224)
+max_label 2
+Isolated_Tumor_Cells []
+num_of_tumors 2
+TP 2 TPelse 1562 FP 746
+Evaluating Performance on image: 097
+converted_mask_testing_images/tumor_097_mask.tif 0.243 3
+evaluation_mask shape (23744, 12160)
+max_label 1
+Isolated_Tumor_Cells []
+num_of_tumors 1
+TP 1 TPelse 273 FP 55
+Evaluating Performance on image: 064
+converted_mask_testing_images/tumor_064_mask.tif 0.243 3
+evaluation_mask shape (26624, 12224)
+max_label 1
+Isolated_Tumor_Cells []
+num_of_tumors 1
+TP 1 TPelse 485 FP 20
+Evaluating Performance on image: 038
+converted_mask_testing_images/tumor_038_mask.tif 0.243 3
+evaluation_mask shape (27328, 12224)
+max_label 4
+Isolated_Tumor_Cells []
+num_of_tumors 4
+TP 4 TPelse 259 FP 25
+Evaluating Performance on image: 110
+converted_mask_testing_images/tumor_110_mask.tif 0.243 3
+evaluation_mask shape (11200, 12800)
+max_label 3
+Isolated_Tumor_Cells [2]
+num_of_tumors 2
+TP 2 TPelse 250 FP 122
+Evaluating Performance on image: 075
+converted_mask_testing_images/tumor_075_mask.tif 0.243 3
+evaluation_mask shape (26624, 12224)
+max_label 32
+Isolated_Tumor_Cells [3, 4, 6, 10, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25, 26, 30, 31]
+num_of_tumors 15
+TP 13 TPelse 41406 FP 933
+Evaluating Performance on image: 068
+converted_mask_testing_images/tumor_068_mask.tif 0.243 3
+evaluation_mask shape (27648, 12224)
+max_label 8
+Isolated_Tumor_Cells [2, 3, 5, 7]
+num_of_tumors 4
+TP 4 TPelse 61310 FP 1135
+Evaluating Performance on image: 104
+converted_mask_testing_images/tumor_104_mask.tif 0.243 3
+evaluation_mask shape (26304, 12096)
+max_label 4
+Isolated_Tumor_Cells [1]
+num_of_tumors 3
+TP 3 TPelse 19828 FP 35
+Evaluating Performance on image: 030
+converted_mask_testing_images/tumor_030_mask.tif 0.243 3
+evaluation_mask shape (27648, 12224)
+max_label 23
+Isolated_Tumor_Cells [2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 23]
+num_of_tumors 6
+TP 6 TPelse 3479 FP 335
+Evaluating Performance on image: 117
+converted_mask_testing_images/tumor_117_mask.tif 0.243 3
+evaluation_mask shape (26624, 12160)
+max_label 1
+Isolated_Tumor_Cells []
+num_of_tumors 1
+TP 1 TPelse 329 FP 182
+Evaluating Performance on image: 027
+Evaluation_FROC.py:235: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  FROC_data = np.zeros((4, len(result_file_list)), dtype=np.object)
+Evaluation_FROC.py:236: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  FP_summary = np.zeros((2, len(result_file_list)), dtype=np.object)
+Evaluation_FROC.py:237: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  detection_summary = np.zeros((2, len(result_file_list)), dtype=np.object)
+converted_mask_testing_images/tumor_027_mask.tif 0.243 3
+evaluation_mask shape (27648, 12224)
+max_label 1
+Isolated_Tumor_Cells []
+num_of_tumors 1
+TP 1 TPelse 16896 FP 50
+[293.8125   3.6875   0.    ] [0.80246914 0.75308642 0.        ]
+Avg FP =  0.25
+Sensitivity =  0.051056706423938066
+Avg FP =  0.5
+Sensitivity =  0.10211341284787613
+Avg FP =  1
+Sensitivity =  0.20422682569575226
+Avg FP =  2
+Sensitivity =  0.4084536513915045
+Avg FP =  4
+Sensitivity =  0.7531396109595162
+Avg FP =  8
+Sensitivity =  0.753820458401817
+Avg Sensivity =  0.3788017776200674
+DONE
